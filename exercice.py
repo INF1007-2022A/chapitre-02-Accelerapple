@@ -57,6 +57,7 @@ def choice():
     print("end with option: ", choix, "\n")
 
 
-while ok:
-    choice()
+if __name__ == '__main__':
+    while ok:
+        choice()
 
